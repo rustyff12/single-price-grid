@@ -5,45 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Single Price Grid Component</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  Join our community
 
-  30-day, hassle-free money back guarantee
+  <div class="container">
+    <!-- First -->
+    <div class="container__box first gray">
+      <h3 class="primary">Join our community</h3>
+      <p class="secondary">30-day, hassle-free money back guarantee</p>
+      <p>
+        Gain access to our full library of tutorials along with expert code reviews.
+        Perfect for any developers who are serious about honing their skills.
+      </p>
+    </div>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+    <!-- Second -->
+    <div class="container__box second light">
+      <h3 class="light">Monthly Subscription</h3>
 
-  Monthly Subscription
+          <div class="second-box">
+            <p><span class="dollar">&dollar;29</span></p>
+            <p><span class="dollar-small light-white">per month</span></p>
+          </div>
 
-  &dollar;29 per month
+          <p>Full access for less than &dollar;1 a day</p>
 
-  Full access for less than &dollar;1 a day
+      <button class="btn">Sign Up</button>
+    </div>
 
-  Sign Up
+    <!-- Third -->
+    <div class="container__box third light">
+      <h3>Why Us</h3>
 
-  Why Us
+        <p>Tutorials by industry experts</p>
+        <p>Peer &amp; expert code review</p>
+        <p>Coding exercises</p>
+        <p>Access to our GitHub repos</p>
+        <p>Community forum</p>
+        <p>Flashcard decks</p>
+        <p>New videos every week</p>
 
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
+    </div>
+
+  </div>
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/rustyff12" target="_blank">Russell Frankpitt</a>.
     </p>
   </footer>
 </body>
